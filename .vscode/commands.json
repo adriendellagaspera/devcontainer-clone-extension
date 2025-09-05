@@ -1,0 +1,9 @@
+{
+    "commands": [
+        {
+            "command": "extension.cloneInContainer",
+            "title": "Clone Repository in Container",
+            "category": "Dev Container"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+[
+    {
+        "key": "cmd+shift+c",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Clone Repository in Container",
+        "when": "!inDebugMode"
+    }
+]

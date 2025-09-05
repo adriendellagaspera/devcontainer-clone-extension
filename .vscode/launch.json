@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Clone Repository in Container",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/cursor-clone-container.sh",
+            "console": "integratedTerminal",
+            "args": ["${input:repositoryUrl}"]
+        }
+    ],
+    "inputs": [
+        {
+            "id": "repositoryUrl",
+            "description": "URL du dépôt GitHub à cloner",
+            "default": "https://github.com/",
+            "type": "promptString"
+        }
+    ]
+}
