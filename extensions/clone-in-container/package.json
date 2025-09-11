@@ -1,14 +1,22 @@
 {
     "name": "devcontainer-clone-extension",
     "displayName": "Clone Repository in Container",
-    "description": "Clone a GitHub repository directly into a dev container",
-    "version": "1.0.0",
+    "description": "Clone a GitHub repository directly into a dev container with official template selection",
+    "version": "2.0.0",
     "publisher": "adrien",
     "engines": {
         "vscode": "^1.74.0"
     },
     "categories": [
         "Other"
+    ],
+    "keywords": [
+        "devcontainer",
+        "docker",
+        "container",
+        "clone",
+        "github",
+        "template"
     ],
     "activationEvents": [],
     "main": "./extension.js",
@@ -28,5 +36,10 @@
                 }
             ]
         }
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/adrien/devcontainer-clone-extension"
+    },
+    "homepage": "https://github.com/adrien/devcontainer-clone-extension#readme"
 }
