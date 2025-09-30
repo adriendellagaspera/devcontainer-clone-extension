@@ -8,7 +8,7 @@ This repository aims to bridge the gap between VSCode's DevContainers extension 
 
 ## Implementation Priorities
 
-### Phase 1 - Base Infrastructure (Critical Priority)
+### Phase 1 - Base infrastructure abstractions (Top Priority)
 1. **Docker Infrastructure**: Docker Engine, CLI, API
 2. **Git Infrastructure**: Git CLI, authentication
 3. **VSCode/Cursor Infrastructure**: Extension API, command palette
